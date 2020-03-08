@@ -3,4 +3,7 @@
 -Completed and Passed "squareDigit.java" ("Square Every Digit, 7 kyu")
 08/03/2020
 -Completed and Passed "tenMinuteWalk.java" ("Take a Ten Minute Walk, 6 kyu")
+  +Extra notes on Switches with example from Best Practices section
 -Completed "baseTemplate.java"
+-Completed and Passed "highAndLow.java" ("Highest and Lowest, 7 kyu")
+-
