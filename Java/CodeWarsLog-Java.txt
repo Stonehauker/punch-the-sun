@@ -6,4 +6,5 @@
   +Extra notes on Switches with example from Best Practices section
 -Completed "baseTemplate.java"
 -Completed and Passed "highAndLow.java" ("Highest and Lowest, 7 kyu")
+  +Extra notes on Array.stream() and String.format() from Best Practices section
 -
