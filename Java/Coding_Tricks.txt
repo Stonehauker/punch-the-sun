@@ -1,0 +1,48 @@
+CODING TRICKS
+
+-SWITCHES-
+EXAMPLE WITHIN: "tenMinuteWalk.java"
+"You use a switch statement when you are switching on different values of primitive / enum / wrapper types. (And not all primitive / wrapper types, just the supported ones - byte, short, char, int)." - danben, Stack Overflow (https://stackoverflow.com/questions/2103080/when-to-use-a-switch-statement-in-java)
+
+"...I'd suggest that it's usually preferable to use switch over if/else if if you're dealing with numeric or enum types." - Kirby, Stack Overflow (https://stackoverflow.com/questions/2103080/when-to-use-a-switch-statement-in-java)
+
+Use Switches with byte, short, char, and int objects to iterate through a series of cases, similar to an if/else loop. Preferable to use with numeric or enum types.
+
+
+-RECURSION-
+EXAMPLE WITHIN: "recIntoSquare.java"
+"A method that calls itself is known as a recursive method. And, this technique is known as recursion.
+
+A physical world example would be to place two parallel mirrors facing each other. Any object in between them would be reflected recursively." - Programiz (https://www.programiz.com/java-programming/recursion)
+
+"class Factorial {
+    static int factorial( int n ) {
+        if (n != 0)
+            return n * factorial(n-1); // recursive call
+        else
+            return 1;
+    }
+
+    public static void main(String[] args) {
+        int number = 4, result;
+        result = factorial(number);
+        System.out.println(number + " factorial = " + result);
+    }
+}" - Programiz (https://www.programiz.com/java-programming/recursion)
+
+Use recursion with a problem that requires the same action repeated until a certain point. Recursion generally uses more memory and is slow, but are simpler to write, debug, and maintain. Preferable to use for more clarity and time reduction.
+
+
+-ARRAYS.STREAM()-
+EXAMPLE WITHIN: "highAndLow.java"
+"static <Type> Stream<Type>
+stream(Type[] array, [ int startInclusive, int endExclusive ])
+Returns a sequential Stream [with the specified range] of the specified array as its source." -  Oracle Docs (https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html)
+
+ Use Arrays.stream() when the items in an array need to be sorted or analyzed quickly and efficiently. Preferable when converting a string of numbers into an array of integers to be processed (max, min, sort)
+
+
+-TRICK-
+EXAMPLE WITHIN: ""
+"" - USER, SITE (LINK)
+REFINED_EXPLANATION
