@@ -11,10 +11,16 @@
 09/03/2020
 -Completed "recIntoSquares.java" ("Rectangles into Squares, 6 kyu")
   +Notes on Recursion with example from Best Practices section
--Entered "Coding_Tricks.txt"
+-Created "Coding_Tricks.txt"
   +Added -SWITCHES-
   +Added -RECURSION-
   +Added -ARRAYS.STREAM()-
 -Started "simpleEncrypt.java" ("Simple Encryption #1 - Alternating Split, 6 kyu")
 13/03/2020
 -Completed and Passed "simpleEncrypt.java" ("Simple Encryption #1 - Alternating Split, 6 kyu")
+-Completed and Passed "factorial.java" ("Factorial, 7 kyu")
+  +Notes on Ternary Operators with example from Best Practices section
+  +Added -TERNARY OPERATORS- to "Coding_Tricks.txt"
+-Completed and Passed "multi3or5.java" ("Multiples of 3 or 5, 6 kyu")
+-Forfeited "dubstep.java" ("Dubstep, 6 kyu")
+-

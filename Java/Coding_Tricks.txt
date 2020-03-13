@@ -42,6 +42,12 @@ Returns a sequential Stream [with the specified range] of the specified array as
  Use Arrays.stream() when the items in an array need to be sorted or analyzed quickly and efficiently. Preferable when converting a string of numbers into an array of integers to be processed (max, min, sort)
 
 
+ -TERNARY OPERATOR-
+ EXAMPLE WITHIN: "factorial.java"
+ "The condition part of a ternary operator is followed by a question mark (?). After the question mark are the two values the ternary operator can return, separated by a colon (:)...The first value is returned if the condition parts evaluates to true. The second value is returned if the condition part evaluates to false." - Jenkov Tutorials (http://tutorials.jenkov.com/java/ternary-operator.html)
+ Use ternary operators instead of if loops for nullchecks, as max/min/abs functions without importing math. Also possible to chain together multiple ternary operations.
+
+
 -TRICK-
 EXAMPLE WITHIN: ""
 "" - USER, SITE (LINK)
